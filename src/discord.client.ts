@@ -1,5 +1,5 @@
 import Discord from 'discord.js'
-import { envConfig } from './config'
+import { envConfig } from './env.config'
 
 const webhookClient = new Discord.WebhookClient(
   envConfig.discord.webhookId,

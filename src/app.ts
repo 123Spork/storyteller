@@ -1,7 +1,7 @@
 import { client as redisClient } from './redis.client'
 import { client as discordClient } from './discord.client'
 import { loadStory } from './story.client'
-import { envConfig } from './config'
+import { envConfig } from './env.config'
 
 let pages: string[] = []
 
